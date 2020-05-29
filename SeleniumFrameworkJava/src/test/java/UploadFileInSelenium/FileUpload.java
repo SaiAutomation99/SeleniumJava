@@ -46,6 +46,8 @@ public class FileUpload {
 		action.moveToElement(driver.findElement(By.xpath("//form[@name='parsingResponseForm']//div//button"))).click().build().perform();
 		Thread.sleep(3000);
 
+		
+		//file upload using robot class
 		String h=driver.findElement(By.xpath("//p[text()='Drag and drop file here']")).getText();
 
 		System.out.println(h);
