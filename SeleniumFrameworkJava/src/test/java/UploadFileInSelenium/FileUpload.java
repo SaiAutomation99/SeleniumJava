@@ -68,7 +68,10 @@ public class FileUpload {
 
 			System.out.println("uploaded success");
 		}
-		driver.quit();
+		else {
+			System.out.println("not");
+		}
+		driver.quit();  //comment added
 
 	}
 
