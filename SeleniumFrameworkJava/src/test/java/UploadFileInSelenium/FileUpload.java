@@ -70,6 +70,7 @@ public class FileUpload {
 		}
 		else {
 			System.out.println("not");
+			System.out.println();
 		}
 		driver.quit();  //comment added
 
