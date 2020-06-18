@@ -1,7 +1,10 @@
 package com.selenium.practise;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 public class InvokeApplication {
 
@@ -13,9 +16,9 @@ public class InvokeApplication {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		Select select=new Select(driver.findElement(By.xpath("")));
+		Actions a=new Actions(driver);
 		
-		
-
-	}
+		}
 
 }
