@@ -28,10 +28,6 @@ public class PDF2 {
 			System.out.println(e.getMessage());
 			System.out.println(e.toString());
 		}
-		
-		
-		
-
 	}
 
 }
