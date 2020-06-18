@@ -16,13 +16,13 @@ public class PDF {
 
 	public static void main(String[] args) throws InvalidPasswordException, IOException {
 		
-		
-		
 		File in=new File("C:\\Users\\Sai\\Downloads\\prejith pet.pdf");
 	      PDDocument document = PDDocument.load(in);
 
 		
 		PDFTextStripper stripper=new PDFTextStripper();
+		int i=stripper.getEndPage();
+		System.out.println(i);
 		String m=stripper.getText(document);
 		System.out.println(m);	
 		document.close();
