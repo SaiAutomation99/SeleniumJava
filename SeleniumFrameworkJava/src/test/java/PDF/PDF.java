@@ -26,8 +26,6 @@ public class PDF {
 		String m=stripper.getText(document);
 		System.out.println(m);	
 		document.close();
-		
-
 	}
 
 }
