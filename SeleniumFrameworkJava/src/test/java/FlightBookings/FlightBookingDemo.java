@@ -26,12 +26,6 @@ public class FlightBookingDemo {
 		String textname=driver.findElement(By.xpath("//a[text()='Android']")).getText();
 		System.out.println(textname);
 		driver.quit();
-		
-		
-		
-		
-		
-
 	}
 
 }
