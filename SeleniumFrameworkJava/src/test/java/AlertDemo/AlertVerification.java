@@ -2,7 +2,6 @@ package AlertDemo;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,9 +17,8 @@ public class AlertVerification {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@id='goBtn']")).click();
 		driver.findElement(By.xpath("(//div[@class='modal-footer']//button[contains(text(),'CLOSE')])[1]")).click();
-		
 		driver.quit();
-
-	}
-
+	
+		
+	}	
 }
