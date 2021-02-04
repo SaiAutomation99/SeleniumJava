@@ -24,6 +24,8 @@ public class BlueDart {
 	driver.findElement(By.xpath("//span[@class='glyphicon glyphicon-remove']")).click();
 	WebElement element=	driver.findElement(By.xpath("//label[@id='awbRadioDiv']//input"));
 	
+	fell();
+	
 	WebDriverWait wait=null;
 	if(element.isSelected()) {
 		
@@ -73,6 +75,10 @@ public class BlueDart {
 		driver.quit();
 	}
 	
+	}
+	public static void fell() {
+		
+		
 	}
 
 }
